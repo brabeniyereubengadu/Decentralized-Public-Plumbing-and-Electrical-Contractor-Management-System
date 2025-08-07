@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/apprenticeship-coordination.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.electrical-certification]
+path = 'contracts/electrical-certification.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
